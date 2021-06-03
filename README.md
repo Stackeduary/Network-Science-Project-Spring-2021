@@ -11,3 +11,5 @@ This repo houses the code for our term project for the course 'Network Science',
   In the notebook called as 'First Approach', we used the features from the baseline model but also added some features that purely depended on our graph's structure(number of common neighbors, katz score etc), which are extracted in an unsupervised manner. We fed these combined set of features to the same models we used in the baseline.
   
   In 'Berlin_Node2Vec-Final', we only used Node2Vec embeddings for our LR and RF models to predict the mean speeds of the roads. We tried several values for the Node2Vec parameters p and q, to see if the results change according to the type of search we use. There wasn't a significant difference in the mean square errors between the embeddings created by breadth-first search and the ones created by depth-first search.
+  
+  Lastly, we would like to mention that the folder containing the NYC taxi data is related to our earliest efforts in this project. We pivoted several times while working on the term project, but we still wanted to keep the NYC taxi data just to remind the instructors of our efforts.
