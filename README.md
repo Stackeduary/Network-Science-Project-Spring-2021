@@ -13,3 +13,5 @@ In First Approach.ipynb, we used the features from the baseline model but also a
 In Berlin_Node2Vec-Final.ipynb, only Node2Vec embeddings were used for the linear regression and random forest models to predict the mean speeds of the roads. We tried several values for the Node2Vec parameters p and q to see if the results change according to the type of search used. There wasn't a significant difference in the mean squared errors between the embeddings created by breadth-first search and those created by depth-first search.
   
 Lastly, the New York City Taxi GitHub folder encapsulates our earliest efforts in this project. We pivoted several times while working on this project, but still wanted to include the NYC taxi data for completeness. 
+
+Our final report can be found in the file titled Network Science Project Spring 2021 Final Report.
